@@ -1,0 +1,24 @@
+*{margin:0;
+   font-family: 'Work Sans', sans-serif;}
+header{width: 1600px;
+    height: 600px;
+     left: 1600px;
+     top: 0px;
+     background:url('images/banner/banner2.png');
+}
+.btn-primary{
+width: 160px;
+height: 64px;
+}
+ .header-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+   }
+ .header-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    }
