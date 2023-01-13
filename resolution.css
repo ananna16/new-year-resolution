@@ -28,7 +28,7 @@ background-image:url('images/banner/banner2.png')
   padding-bottom:32px;
 }
 .btn-primary{
-   width: 160px;
+  width: 160px;
   height: 64px;
   margin-left: 86%;
   margin-bottom:167px;
@@ -38,9 +38,7 @@ background-image:url('images/banner/banner2.png')
   display:flex;
   align-items: center; 
   gap: 90px;
- 
-  
-}
+ }
 .fs1{text-align: right center;
 }
 .ist-child-title{
@@ -89,10 +87,10 @@ padding-bottom:70px;
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     border-radius: 8px;
     display:flex;
-    align-items:center left;
-    max-width: 1140px;
+    max-width: 900px; 
     height: 200px;
-  }
+    justify-content:flex-start;
+    }
   .quote{
     font-weight: 700;
     font-size: 40px;
@@ -128,8 +126,28 @@ padding-bottom:70px;
 .subs-title{
   font-size: 25px;
   font-weight: 600;
-  padding-top:150px;
+  padding-top: 150px;
 }
 .sub-btn{
-  
-}
+   font-weight: 600; 
+   font-size: 20px; 
+   color: #F15B22;
+   margin-top:50px;
+   width: 170.11px;
+   height: 64px;
+   border-radius:8px;}
+   .ad-mail{
+    width: 325px;
+    height: 64px;
+   }
+   .primary-call{
+  font-weight: 600; 
+   font-size: 20px; 
+   color: #F15B22;
+   margin-top:140px;
+   margin-right:100%;
+   /* width: 150.11px; */
+   height: 54px;
+   border-radius:8px;
+   }
+   
