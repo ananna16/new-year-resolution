@@ -1,5 +1,5 @@
-*{margin:0px;
- padding:0px;}
+*{margin:0px; 
+ padding:0px;} 
 
 header{
 background-image:url('images/banner/banner2.png')
@@ -28,11 +28,108 @@ background-image:url('images/banner/banner2.png')
   padding-bottom:32px;
 }
 .btn-primary{
-  /* display:flex; */
-  /* align-items: right; */
-  width: 160px;
+   width: 160px;
   height: 64px;
-  padding-left: 86%; 
-  /* background: chocolate; */
-  /* color:white; */
+  margin-left: 86%;
+  margin-bottom:167px;
+}
+/* main sections styles */
+.first-child{
+  display:flex;
+  align-items: center; 
+  gap: 90px;
+ 
+  
+}
+.fs1{text-align: right center;
+}
+.ist-child-title{
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  width: 288px;
+  height: 94px;
+  margin-bottom: 24px;
+}
+.ist-child-discription{
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+.second-child{
+  display:flex;
+  list-style: none;
+  justify-content: space-between;
+  }
+  
+.plan-title
+{text-align: center;
+font-weight: 700;
+font-size: 40px;
+color: #151414;}
+
+
+.skill-title{
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+}
+.to-do{
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+.section-title{
+width: 1135px;
+height: 299.96px;
+padding-bottom:70px;
+}
+
+  .quotation-container{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+    display:flex;
+    align-items:center left;
+    max-width: 1140px;
+    height: 200px;
+  }
+  .quote{
+    font-weight: 700;
+    font-size: 40px;
+    color:#FFFFFF;
+    list-style: none;
+  }
+  .contact-info{
+    margin-top:180px;
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    color:#FFFFFF
+  }
+  .white-box{
+    display:flex;
+    gap:250px ;
+  }
+  .future{
+    font-weight: 700;
+    font-size: 45px;
+    padding-top:150px;
+  }
+  .social-media{
+    display:flex;
+    gap:15px;
+    list-style: none;
+  }
+.future-description{
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom:20px;
+}
+.subs-title{
+  font-size: 25px;
+  font-weight: 600;
+  padding-top:150px;
+}
+.sub-btn{
+  
 }
